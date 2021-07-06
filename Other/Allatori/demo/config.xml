@@ -1,0 +1,27 @@
+<config>
+	<input>
+		<jar in="Main.jar" out="obf-Main.jar"/>
+	</input>
+
+	<keep-names>
+		<class template="class *.TestFrame"/>
+	</keep-names>
+
+	<property name="log-file" value="log.xml"/>
+	<property name="update-resource-names" value="enable"/>
+	<property name="update-resource-contents" value="enable"/>
+
+	<property name="classes-naming" value="abc"/>
+	<property name="line-numbers" value="remove"/>
+	<property name="generics" value="remove"/>
+	<property name="inner-classes" value="remove"/>
+	<property name="finalize" value="enable"/>
+	<property name="local-variables-naming" value="remove"/>
+	<property name="inner-classes" value="remove"/>
+	<property name="synthetize-methods" value="all"/>
+	<property name="synthetize-fields" value="all"/>
+
+	<property name="default-package" value=""/>
+	<property name="force-default-package" value="enable"/>
+	<property name="output-jar-compression-level" value="9"/>
+</config>
